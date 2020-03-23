@@ -1,10 +1,7 @@
 # An inchoate Makefile for building the Go binaries.
 #
-# If you're tweaking proto files, you must run "make proto" manually otherwise
-# your changes to the .proto file will not get generated.
-#
 
-# The name of the package containing Smashwords code, as Go understands it.
+# The name of the package containing code, as Go understands it.
 PACKAGE=miceplans.net
 
 # The path of the root of the package.
